@@ -55,6 +55,7 @@ public class PrimitiveTypeTest {
         System.out.println("最大值：Character.MAX_VALUE="
                 + (int) Character.MAX_VALUE);
 
+        //JAVA中还存在另外一种基本类型void，它也有对应的包装类 java.lang.Void，不过我们无法直接对它们进行操作。
     }
 
 }
