@@ -14,7 +14,7 @@ public class SelectAlgorithmsImpl implements SelectAlgorithms {
 
     @Override
     public int[] sort(int[] intArr) {
-        int temp = 0;
+        int temp;
         for (int i = 0; i < intArr.length - 1; i++) {
             temp = i;
             for (int j = i + 1; j < intArr.length; j++) {
