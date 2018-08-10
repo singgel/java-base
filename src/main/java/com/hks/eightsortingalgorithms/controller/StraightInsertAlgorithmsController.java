@@ -16,7 +16,7 @@ public class StraightInsertAlgorithmsController {
     @Autowired
     StraightInsertAlgorithms straightInsertAlgorithms;
 
-    @RequestMapping(value = "/SelectHeapSorting", method = RequestMethod.POST)
+    @RequestMapping(value = "/straightInsertSorting", method = RequestMethod.POST)
     @ApiOperation("直接插入排序")
     public int[] straightInsertSorting(@RequestParam int[] args){
         return straightInsertAlgorithms.sort(args);
