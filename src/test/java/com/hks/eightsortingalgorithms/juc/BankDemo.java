@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms;
+package com.hks.eightsortingalgorithms.juc;
 
 /*一共有５个进程需要请求资源，有３类资源*/
 public class BankDemo {
