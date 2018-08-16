@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms.oom;
+package com.hks.eightsortingalgorithms;
 
 public class EqualsOOMTest {
 
