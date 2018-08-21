@@ -18,7 +18,7 @@ public class MergeAlgorithmsController {
 
     @RequestMapping(value = "/mergeSorting", method = RequestMethod.POST)
     @ApiOperation("归并排序")
-    public int[] selectSorting(@RequestParam int[] intArr) {
+    public int[] mergeSorting(@RequestParam int[] intArr) {
         return mergeAlgorithms.sort(intArr);
     }
 
