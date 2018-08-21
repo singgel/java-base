@@ -25,8 +25,8 @@ public class MethodTimeAspect {
      */
     @Pointcut("execution(* com.hks.eightsortingalgorithms.method..*.*(..))")
     public void logPointcut(){}
-    @Around("logPointcut()")
 
+    @Around("logPointcut()")
     public Object doAround(ProceedingJoinPoint joinPoint) throws Throwable{
         long start = System.currentTimeMillis();
         try {
