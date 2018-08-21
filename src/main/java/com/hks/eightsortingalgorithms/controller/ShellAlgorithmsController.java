@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Api(description = "希尔排序")
+@Api(description = "希尔排序（平均O(n²)、最好O(n)、最坏O(n²)；空间复杂度：O(1)；稳定性：不稳定）")
 public class ShellAlgorithmsController {
 
     @Autowired
