@@ -18,7 +18,7 @@ public class BubbleAlgorithmsController {
 
     @RequestMapping(value = "/bubbleSorting", method = RequestMethod.POST)
     @ApiOperation("选择排序")
-    public int[] selectSorting(@RequestParam int[] intArr) {
+    public int[] bubbleSorting(@RequestParam int[] intArr) {
         return bubbleAlgorithms.sort(intArr);
     }
 
