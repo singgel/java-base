@@ -18,7 +18,7 @@ public class QuickAlgorithmsController {
 
     @RequestMapping(value = "/quickSorting", method = RequestMethod.POST)
     @ApiOperation("快速排序")
-    public int[] selectSorting(@RequestParam int[] intArr) {
+    public int[] quickSorting(@RequestParam int[] intArr) {
         return quickAlgorithms.sort(intArr);
     }
 
