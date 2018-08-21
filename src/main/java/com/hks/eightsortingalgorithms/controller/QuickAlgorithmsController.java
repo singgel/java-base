@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Api(description = "快速排序（平均O(n*lg(n))、最好O(n*lg(n))、最坏O(n²)；空间复杂度：O(n*lg(n))；稳定性：不稳定）")
+@Api(description = "平均O(n*lg(n))、最好O(n*lg(n))、最坏O(n²)；空间复杂度：O(n*lg(n))；稳定性：不稳定")
 public class QuickAlgorithmsController {
 
     @Autowired
