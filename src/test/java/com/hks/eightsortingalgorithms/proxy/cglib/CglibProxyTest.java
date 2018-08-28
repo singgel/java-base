@@ -1,7 +1,7 @@
-package com.hks.eightsortingalgorithms.Proxy.cglib;
+package com.hks.eightsortingalgorithms.proxy.cglib;
 
-import com.hks.eightsortingalgorithms.Proxy.UserService;
-import com.hks.eightsortingalgorithms.Proxy.UserServiceImpl;
+import com.hks.eightsortingalgorithms.proxy.UserService;
+import com.hks.eightsortingalgorithms.proxy.UserServiceImpl;
 
 import net.sf.cglib.proxy.Enhancer;
 

@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms.Proxy.cglib;
+package com.hks.eightsortingalgorithms.proxy.cglib;
 
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

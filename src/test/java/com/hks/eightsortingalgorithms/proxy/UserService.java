@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms.Proxy;
+package com.hks.eightsortingalgorithms.proxy;
 
 public interface UserService {
 

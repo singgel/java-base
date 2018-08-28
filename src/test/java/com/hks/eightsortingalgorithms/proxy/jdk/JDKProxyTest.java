@@ -1,7 +1,7 @@
-package com.hks.eightsortingalgorithms.Proxy.jdk;
+package com.hks.eightsortingalgorithms.proxy.jdk;
 
-import com.hks.eightsortingalgorithms.Proxy.UserService;
-import com.hks.eightsortingalgorithms.Proxy.UserServiceImpl;
+import com.hks.eightsortingalgorithms.proxy.UserService;
+import com.hks.eightsortingalgorithms.proxy.UserServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
