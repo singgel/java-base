@@ -29,6 +29,19 @@ public class SingletonClass {
         return singletonClass;
     }
 
+    // 终极版本：volatile
+    private static volatile SingletonClass instance;
+    public static SingletonClass getSingleInstance() {
+        if (instance == null) {
+            synchronized (SingletonClass.class) {
+                if (instance == null) {
+                    instance = new SingletonClass();
+                }
+            }
+        }
+        return instance;
+    }
+
     // Happens-Before
     private static class SingleHolder{
         public static SingletonClass instance = new SingletonClass();
