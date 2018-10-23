@@ -26,4 +26,19 @@ public class FinalTest {
         System.out.println((a == e));
     }
 
+    // 不过要注意，只有在编译期间能确切知道final变量值的情况下，
+    // 编译器才会进行这样的优化，
+    // 比如下面的这段代码就不会进行优化：
+    public void test(String[] args)  {
+        String a = "hello2";
+        final String b = getHello();
+        String c = b + 2;
+        System.out.println((a == c));
+
+    }
+
+    public static String getHello() {
+        return "hello";
+    }
+
 }
