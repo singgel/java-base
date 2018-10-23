@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms;
+package com.hks.eightsortingalgorithms.conllectors;
 
 import java.util.ArrayList;
 import java.util.Iterator;
