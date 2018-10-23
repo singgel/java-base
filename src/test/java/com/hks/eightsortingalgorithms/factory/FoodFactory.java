@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms.effective.factory;
+package com.hks.eightsortingalgorithms.factory;
 
 /**
  * @Author: hekuangsheng
@@ -11,7 +11,7 @@ public class FoodFactory {
     public static Food getFood(String type) {
         Food food = null;
         try {
-            food = (Food) Class.forName("com.hks.eightsortingalgorithms.effective.factory." + type).newInstance();
+            food = (Food) Class.forName("com.hks.eightsortingalgorithms.factory." + type).newInstance();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {

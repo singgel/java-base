@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms.effective.factory;
+package com.hks.eightsortingalgorithms.factory;
 
 import org.junit.Test;
 
