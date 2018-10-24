@@ -1,5 +1,7 @@
 package com.hks.eightsortingalgorithms.staticClass;
 
+import java.math.BigDecimal;
+
 /**
  * @Author: hekuangsheng
  * @Date: 2018/10/23
@@ -20,6 +22,7 @@ package com.hks.eightsortingalgorithms.staticClass;
  */
 public class Test extends Base{
 
+
     static{
         System.out.println("test static");
     }
@@ -30,6 +33,12 @@ public class Test extends Base{
 
     public static void main(String[] args) {
         new Test();
+    }
+
+    @org.junit.Test
+    public void test(){
+        BigDecimal bigDecimal = BigDecimal.valueOf(0.1);
+        System.out.print(bigDecimal);
     }
 }
 
