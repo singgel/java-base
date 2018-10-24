@@ -39,6 +39,12 @@ public class Test extends Base{
     public void test(){
         BigDecimal bigDecimal = BigDecimal.valueOf(0.1);
         System.out.print(bigDecimal);
+
+        System.out.print("=============");
+        System.out.print(ThisClass.value);
+        System.out.print("-------------");
+        ThisClass.value = 0;
+        System.out.print(ThisClass.value);
     }
 }
 
