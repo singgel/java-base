@@ -77,7 +77,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>RELEASE</version>
         </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
