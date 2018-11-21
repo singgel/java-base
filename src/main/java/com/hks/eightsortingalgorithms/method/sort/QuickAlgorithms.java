@@ -1,4 +1,4 @@
-package com.hks.eightsortingalgorithms.method;
+package com.hks.eightsortingalgorithms.method.sort;
 
 public interface QuickAlgorithms {
 

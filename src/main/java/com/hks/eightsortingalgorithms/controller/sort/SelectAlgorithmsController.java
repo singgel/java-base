@@ -1,6 +1,6 @@
-package com.hks.eightsortingalgorithms.controller;
+package com.hks.eightsortingalgorithms.controller.sort;
 
-import com.hks.eightsortingalgorithms.method.SelectAlgorithms;
+import com.hks.eightsortingalgorithms.method.sort.SelectAlgorithms;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package com.hks.eightsortingalgorithms.method.impl;
+package com.hks.eightsortingalgorithms.method.sort.impl;
 
-import com.hks.eightsortingalgorithms.method.MergeAlgorithms;
+import com.hks.eightsortingalgorithms.method.sort.MergeAlgorithms;
 import org.springframework.stereotype.Service;
 
 @Service

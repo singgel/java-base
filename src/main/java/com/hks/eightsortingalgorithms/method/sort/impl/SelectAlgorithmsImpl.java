@@ -1,6 +1,6 @@
-package com.hks.eightsortingalgorithms.method.impl;
+package com.hks.eightsortingalgorithms.method.sort.impl;
 
-import com.hks.eightsortingalgorithms.method.SelectAlgorithms;
+import com.hks.eightsortingalgorithms.method.sort.SelectAlgorithms;
 import org.springframework.stereotype.Component;
 
 @Component
