@@ -7,7 +7,7 @@
     <property name="java.vm.version" value="25.201-b09"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/xueqiu/github/javaagent"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/xueqiu/github/java-base/java-agent"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,12 +17,12 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/xueqiu/github/javaagent"/>
+    <property name="user.dir" value="/Users/xueqiu/github/java-base/java-agent"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="visualvm.id" value="38495474683777"/>
+    <property name="visualvm.id" value="41894516847045"/>
     <property name="java.io.tmpdir" value="/var/folders/f6/dhxcn_295gd7hm0p04ht23180000gn/T/"/>
     <property name="line.separator" value="
 "/>
