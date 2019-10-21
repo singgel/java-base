@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hks</groupId>
+    <artifactId>java-btrace</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-agent</artifactId>
+            <version>1.3.11.3</version>
+            <scope>system</scope>
+            <systemPath>/Users/xueqiu/software/btrace-bin-1.3.11.3/build/btrace-agent.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-boot</artifactId>
+            <version>1.3.11.3</version>
+            <scope>system</scope>
+            <systemPath>/Users/xueqiu/software/btrace-bin-1.3.11.3/build/btrace-boot.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-client</artifactId>
+            <version>1.3.11.3</version>
+            <scope>system</scope>
+            <systemPath>/Users/xueqiu/software/btrace-bin-1.3.11.3/build/btrace-client.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
