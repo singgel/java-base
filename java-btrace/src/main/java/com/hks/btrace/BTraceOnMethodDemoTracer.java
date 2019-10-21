@@ -6,7 +6,7 @@ import com.sun.btrace.annotations.OnMethod;
 import static com.sun.btrace.BTraceUtils.println;
 
 @BTrace
-public class Tracer {
+public class BTraceOnMethodDemoTracer {
 
     @OnMethod(clazz = "java.lang.Thread", method = "start")
     public static void onThreadStart() {
