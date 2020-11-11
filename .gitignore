@@ -1,4 +1,4 @@
-/target/
+*/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -16,6 +16,7 @@
 *.iml
 *.ipr
 .DS_Store
+*.csv
 
 ### NetBeans ###
 /nbproject/private/
