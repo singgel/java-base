@@ -1,7 +1,6 @@
 package com.heks.future;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
+import java.util.concurrent.*;
 
 /**
  * @author heks
@@ -82,8 +81,9 @@ public class CompletableFutureTest {
 
     /*使用completeExceptionally(Throwable ex)则抛出一个异常，而不是一个成功的结果。*/
     public static void main(String[] args) {
+        ExecutorService executor = Executors.newCachedThreadPool();
         CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> "Hello");
-
+        future.thenAcceptAsync((s)-> System.out.println(s), executor);
         future.completeExceptionally(new Exception());
 
         try {
