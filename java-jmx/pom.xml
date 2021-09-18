@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.heks</groupId>
-	<artifactId>jmx</artifactId>
+	<artifactId>java-jmx</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jmx</name>
+	<name>java-jmx</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
