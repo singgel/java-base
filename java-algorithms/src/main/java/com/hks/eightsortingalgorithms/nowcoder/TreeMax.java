@@ -1,2 +1,5 @@
-package com.hks.eightsortingalgorithms.nowcoder;public class TreeMax {
+package com.hks.eightsortingalgorithms.nowcoder;
+
+public class TreeMax {
+
 }

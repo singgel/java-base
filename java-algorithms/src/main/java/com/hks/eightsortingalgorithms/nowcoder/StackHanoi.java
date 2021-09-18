@@ -1,2 +1,6 @@
-package com.hks.eightsortingalgorithms.nowcoder;public class StackHanoi {
+package com.hks.eightsortingalgorithms.nowcoder;
+
+public class StackHanoi {
+
+
 }
