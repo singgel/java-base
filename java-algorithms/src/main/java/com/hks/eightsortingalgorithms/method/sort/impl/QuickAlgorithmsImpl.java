@@ -3,8 +3,12 @@ package com.hks.eightsortingalgorithms.method.sort.impl;
 import com.hks.eightsortingalgorithms.method.sort.QuickAlgorithms;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+
 @Service
 public class QuickAlgorithmsImpl implements QuickAlgorithms {
+    private Semaphore fooSema = new Semaphore(1);
 
     @Override
     public int[] sort(int[] intArr) {
