@@ -17,18 +17,19 @@ public class deleteDuplicates {
     }
 
     public ListNode deleteDuplicates(ListNode head) {
-        if(head==null) return head;
-        ListNode n1 = head;
-        ListNode n2 = head;
-        while (n2!=null) {
-            if(n1.val != n2.val) {
-                n1.next = new ListNode(n2.val);
-                n1 = n1.next;
-            } else {
-                n1.next = n2.next;
-            }
-            n2 = n2.next;
+        if (head == null) {
+            return head;
         }
+
+        ListNode cur = head;
+        while (cur.next != null) {
+            if (cur.val == cur.next.val) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+
         return head;
     }
 }
