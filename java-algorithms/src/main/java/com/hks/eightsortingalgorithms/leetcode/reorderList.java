@@ -41,6 +41,6 @@ public class reorderList {
             list.get(j).next = list.get(i);
             j--;
         }
-        list.get(i).next=null;
+        list.get(i).next = null;
     }
 }

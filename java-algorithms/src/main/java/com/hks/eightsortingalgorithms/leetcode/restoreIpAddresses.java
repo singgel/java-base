@@ -10,7 +10,7 @@ public class restoreIpAddresses {
 
     public List<String> restoreIpAddresses(String s) {
         //这里就是对字符串的预处理，但是对于测试用例来说我觉得用处不大，毕竟不会蠢到用13位数字让你分割
-        if(s.length()<4||s.length()>12) {
+        if (s.length() < 4 || s.length() > 12) {
             return res;
         }
         //这里就是套用最经典的回溯模板了，相比于分割字符串只加入分割线一个参数以外，这里还需要添加额外的层数参数level
@@ -18,32 +18,33 @@ public class restoreIpAddresses {
         backtracking(s, 0, 0);
         return res;
     }
+
     void backtracking(String s, int start, int level) {
-        if(level==4) {
+        if (level == 4) {
             res.add(String.join(".", path));
             return;
         }
         for (int i = start; i < s.length(); i++) {
-            if(s.length()-(start+1) > 3*(3-level)){
+            if (s.length() - (start + 1) > 3 * (3 - level)) {
                 continue;
             }
-            if(!validStrIP(s.substring(start,i+1))){
+            if (!validStrIP(s.substring(start, i + 1))) {
                 continue;
             }
-            path.add(s.substring(start,i+1));
-            backtracking(s,start+1,level+1);
-            path.remove(path.size()-1);
+            path.add(s.substring(start, i + 1));
+            backtracking(s, start + 1, level + 1);
+            path.remove(path.size() - 1);
         }
     }
 
     boolean validStrIP(String s) {
-        if(s.charAt(0)=='0'&&s.length()>1) {
+        if (s.charAt(0) == '0' && s.length() > 1) {
             return false;
         }
-        if(s.length()>3){
+        if (s.length() > 3) {
             return false;
         }
-        if(Integer.valueOf(s)>255){
+        if (Integer.valueOf(s) > 255) {
             return false;
         }
         return true;

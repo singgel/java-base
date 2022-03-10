@@ -6,22 +6,25 @@ public class treeToDoublyList {
         public Node left;
         public Node right;
 
-        public Node() {}
+        public Node() {
+        }
 
         public Node(int _val) {
             val = _val;
         }
 
-        public Node(int _val,Node _left,Node _right) {
+        public Node(int _val, Node _left, Node _right) {
             val = _val;
             left = _left;
             right = _right;
         }
-    };
+    }
+
 
     Node pre, head;
+
     public Node treeToDoublyList(Node root) {
-        if(root == null) return null;
+        if (root == null) return null;
         traverTree(root);
         head.left = pre;
         pre.right = head;
@@ -29,11 +32,11 @@ public class treeToDoublyList {
     }
 
     void traverTree(Node node) {
-        if(node==null){
+        if (node == null) {
             return;
         }
         traverTree(node.left);
-        if(head==null){
+        if (head == null) {
             head = node;
         } else {
             pre.right = node;

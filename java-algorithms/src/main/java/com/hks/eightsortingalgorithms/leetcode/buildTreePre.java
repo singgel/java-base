@@ -1,6 +1,6 @@
 package com.hks.eightsortingalgorithms.leetcode;
 
-public class buildTree {
+public class buildTreePre {
     public class TreeNode {
         int val;
         TreeNode left;

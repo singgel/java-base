@@ -15,21 +15,21 @@ public class ReverseWords {
     }
 
     public static String reverseWords(String s) {
-        int left=0, right=s.length()-1;
-        while(left<=right && s.charAt(right)==' ') {
+        int left = 0, right = s.length() - 1;
+        while (left <= right && s.charAt(right) == ' ') {
             right--;
         }
-        while(left<=right && s.charAt(left)==' ') {
+        while (left <= right && s.charAt(left) == ' ') {
             left++;
         }
         Deque<String> queue = new ArrayDeque<>();
         StringBuilder sb = new StringBuilder();
-        while(left<=right) {
-            if(sb.length()!=0 && s.charAt(left)==' ') {
+        while (left <= right) {
+            if (sb.length() != 0 && s.charAt(left) == ' ') {
                 queue.addFirst(sb.toString());
                 sb.setLength(0);
             }
-            if(s.charAt(left)!=' ') {
+            if (s.charAt(left) != ' ') {
                 sb.append(s.charAt(left));
             }
             left++;
