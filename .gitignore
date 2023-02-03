@@ -1,6 +1,9 @@
 */target/
 !.mvn/wrapper/maven-wrapper.jar
 
+### VS code ###
+.history
+
 ### STS ###
 .apt_generated
 .classpath
