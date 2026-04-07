@@ -27,4 +27,6 @@
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
+/.nb-gradle/.github
+.joycode
+.vscode
